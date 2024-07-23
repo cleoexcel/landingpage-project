@@ -1,0 +1,161 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    background: #1f2937;
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .headerlink {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .headerlink ul {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+  }
+  
+  .headerlink ul li {
+    display: flex;
+    margin-left: 50px;
+  }
+  
+  .headerlink ul li a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .bagiandua {
+    display: flex;
+    align-items: flex-start;
+    background: #1f2937;
+    color: white;
+    padding: 20px;
+  }
+  
+  .menu-baru {
+    flex: 1;
+    margin-right: 20px;
+    text-align: left;
+  }
+  
+  .menu-baru h1 {
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+  }
+  
+  .menu-baru p {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 20px;
+    margin-left: 150px;
+  }
+  
+  .menubarufoto {
+    flex-shrink: 0;
+    margin-top: 15px;
+    margin-right: 250px;
+  }
+  
+  .footer {
+    background: #eee;
+    color: darkmagenta;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btn {
+    background-color: #4188cb;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-left: 150px;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  .bagiantiga {
+    display: flex;
+    align-items: flex-start;
+    background: #ffffff;
+    color: black;
+    padding: 20px;
+  }
+  
+  .menufavorite {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    text-align: center;
+  }
+  
+  .menufavorite h1 {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu-item {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .menu-content {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .menu-content img {
+    border: 5px solid #1f2937;
+    border-radius: 15px; 
+    margin-bottom: 10px; 
+  }
+  
+  .menu-content p {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    padding: 0% 20%;
+  }
+  
