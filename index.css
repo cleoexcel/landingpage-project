@@ -1,24 +1,13 @@
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
   body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
   }
   
   .header {
     background: #1f2937;
     color: white;
-    height: 100px;
     display: flex;
-    align-items: center;
     padding: 0 20px;
   }
   
@@ -30,7 +19,6 @@
   
   .headerlink ul {
     display: flex;
-    list-style: none;
     margin-left: auto;
     margin-right: 150px;
   }
@@ -49,7 +37,6 @@
   
   .bagiandua {
     display: flex;
-    align-items: flex-start;
     background: #1f2937;
     color: white;
     padding: 20px;
@@ -82,14 +69,6 @@
     margin-right: 250px;
   }
   
-  .footer {
-    background: #1f2937;
-    color: #ffffff;
-    height: 75px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
   
   .btn {
     background-color: #4188cb;
@@ -98,7 +77,6 @@
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
@@ -107,33 +85,27 @@
   }
   
   .btn:hover {
-    background-color: #45a049;
+    background-color: #8c1e08;
   }
   
   .bagiantiga {
-    display: flex;
-    align-items: flex-start;
     background: #ffffff;
     color: black;
-    padding: 20px;
   }
   
   .menufavorite {
-    margin-bottom: 2rem;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     flex: 1;
     text-align: center;
+    margin-bottom: 2rem;
   }
   
   .menufavorite h1 {
     font-size: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    justify-content: center;
   }
   
   .menu-item {
@@ -216,7 +188,9 @@
   .kupon p {
     display: flex;
     align-items: center;
-    margin-left: 8px;
+    margin-left: 10px;
+    font-size: x-large;
+    font-weight: 800;
 
   }
 
@@ -229,6 +203,7 @@
 
   .kupon2 h2 {
     margin-bottom: 15px;
+    font-family: calc();
   }
 
   .aplikasi {
@@ -259,7 +234,14 @@
   }
 
   .btnsubs:hover {
-    background-color: #45a049;
+    background-color: #8c1e08;
   }
 
-  
+  .footer {
+    background: #1f2937;
+    color: #ffffff;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
